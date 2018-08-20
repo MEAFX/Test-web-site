@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21563" started-at="2018-05-21T12:08:42Z" finished-at="2018-05-21T12:09:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21563" started-at="2018-05-21T12:08:42Z" finished-at="2018-05-21T12:09:04Z">
+      <class name="tests.BaseTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BaseTests@246ae04d]" name="setup" is-config="true" duration-ms="4934" started-at="2018-05-21T15:08:50Z" finished-at="2018-05-21T15:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dreamTest()[pri:0, instance:tests.BaseTests@246ae04d]" name="dreamTest" duration-ms="5948" started-at="2018-05-21T15:08:55Z" finished-at="2018-05-21T15:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dreamTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.BaseTests@246ae04d]" name="afterTest" is-config="true" duration-ms="198" started-at="2018-05-21T15:09:01Z" finished-at="2018-05-21T15:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.MailView@2c6a3f77]" name="afterTest" is-config="true" duration-ms="2323" started-at="2018-05-21T15:09:01Z" finished-at="2018-05-21T15:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.BaseTests -->
+      <class name="tests.MailView">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.MailView@2c6a3f77]" name="setup" is-config="true" duration-ms="8081" started-at="2018-05-21T15:08:42Z" finished-at="2018-05-21T15:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMail()[pri:0, instance:tests.MailView@2c6a3f77]" name="getMail" duration-ms="58" started-at="2018-05-21T15:08:50Z" finished-at="2018-05-21T15:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMail -->
+      </class> <!-- tests.MailView -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
